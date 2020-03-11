@@ -1,0 +1,28 @@
+section {
+    background-color: rgb(20, 66, 52);
+    padding: 20px 15px 20px 15px;
+    margin: 0 25px 0 25px;
+    color: rgb(236, 194, 4);
+}
+
+
+/*
+section.primary {
+    background-color: red;
+}
+*/
+
+section:nth-child(even) {
+    background-color: rgb(236, 194, 4);
+    color: rgb(20, 66, 52)
+}
+
+.back {
+    background-image: url(../../assets/img/leon.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: black;
+}
