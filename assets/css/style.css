@@ -12,12 +12,12 @@ section.primary {
 }
 */
 
-section:nth-child(even) {
+section:nth-child(odd) {
     background-color: rgb(236, 194, 4);
     color: rgb(20, 66, 52)
 }
 
-.back {
+.fondo {
     background-image: url(../../assets/img/leon.png);
     position: relative;
     background-repeat: no-repeat;
@@ -25,4 +25,16 @@ section:nth-child(even) {
     background-position: center;
     height: 300px;
     color: black;
+}
+
+.btn-vgrs {
+    color: rgb(20, 66, 52);
+    background-color: #CCB164;
+    border-color: #99791D;
+}
+
+.btn-vgrs:hover {
+    color: rgb(20, 66, 52);
+    background-color: #FFCC96;
+    border-color: #D6FFFF;
 }
